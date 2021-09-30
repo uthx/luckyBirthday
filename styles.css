@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin:0rem;
+    padding:0rem;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#60A5FA;
+    --border-color: #1E40AF
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    text-align: center;
+    margin: 2rem auto;
+}
+.container .heading{
+    display: block;
+    margin: 1rem auto;
+    color: var(--primary-color);
+}
+.container .description{
+    font-weight: 600;
+    font-size: large;
+    margin: 1.5rem auto;
+    padding: 0.5rem auto;
+}
+.notice{
+    margin: 0rem auto;
+    border: 1px dotted var(--primary-color);
+    padding: 1rem 0.5rem;
+}
+.notice .notice-text{
+    text-align: center;
+    font-weight: 600;
+}
+.notice-btn{
+    border: none;
+    padding: 0rem 0rem;
+    margin: 0rem auto;
+    text-align: end;
+    color: red;
+    text-decoration: underline;
+}
+label{
+    font-weight: 800;
+    font-size: larger;
+    margin: 1rem auto;
+}
+input{
+    max-width: 100%;
+    margin: 1rem auto;
+    border: 3px solid var(--border-color);
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
+}
+button{
+    margin: 1rem auto;
+    padding: 0.5rem 0.5rem;
+    border: 2px solid var(--border-color);
+    color: var(--primary-color);
+    background-color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.footer{
+    margin-top: 3rem;
+}
+.footer .footer-list{
+    margin: 1rem auto;
+    list-style: none;
+}
+.footer .footer-list .list-item{
+    display: flex;
+    margin: 0.5rem auto;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
